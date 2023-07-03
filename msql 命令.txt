@@ -1,0 +1,13 @@
+net start mysql启动MySQL的服务
+net stop mysql停止服务
+
+登录
+mysql -uroot -p
+
+exit 退出
+刷新数据库配置
+如果上述配置没起作用，我们可以通过以下指令强制刷新配置
+flush privileges;
+
+
+laijianqing1513
